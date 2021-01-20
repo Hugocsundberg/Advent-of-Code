@@ -22,26 +22,6 @@ splitted.forEach((fullRow) => {
         passwordIsValid = false
     }
 
-
-
-
-
-    // console.log(`this is min: ${ inputs[0]}`)
-    // console.log(`this is max: ${ inputs[1]}`)
-
-    // for (i = inputs[0]; i <= inputs[1]; i++) {
-    //     console.log(i)
-    //     if (splitRow[2].split('')[i] === letter) {
-    //         passwordIsValid = true
-    //     }
-    // }
-
-    // splitRow[2].split('').forEach(letterparam => {
-    //     if (letterparam === letter) {
-    //         letterCount++
-    //     }
-
-    // });
     console.log(passwordIsValid)
     if (passwordIsValid) {
         validPasswords++
